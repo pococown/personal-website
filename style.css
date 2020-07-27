@@ -1,0 +1,241 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body{
+	overflow-x: hidden;
+	font-family: 'lato',"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color:#2B0101; }
+
+.backgroung {background-image: linear-gradient(to right, #FBC2EB , #A18CD1); /* Standard syntax (must be last) */}
+
+.offset:before{
+	display: block;
+	content: "";
+	height: 4rem;
+	margin-top: -4rem;
+}
+
+/*============= narvigation SECTION =============*/
+
+.navbar {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1rem;
+	
+	line-height: 1rem;
+	background-image: linear-gradient(to right, #FBC2EB , #A18CD1);
+	
+	
+}
+.narbar-band img{
+	height: 2rem;
+}
+.navbar-nav li{
+	padding-right: .7rem;
+	height: 2rem;
+
+}
+.navbar-dark .narbar-nav .nav-link{
+	color: blueviolet;
+	padding-top:.3rem;
+}
+.navbar-dark .narbar-nav .nav-link.actvie,
+.navbar-dark .narbar-nav .nav-link:hover{
+	color: #2B0101;
+}
+/*-----landing page---*/
+.home-inner{
+	background-image: url("img/computers.png");
+}
+.caption{
+	width: 100%;
+	max-width: 100%;
+	position: absolute;
+	top:38%;
+	z-index: 1;
+	color:blueviolet;
+	text-transform: uppercase;
+	
+}
+.caption h1{
+	font-size: 3rem;
+	font-weight: 700;
+	line-height: 5rem;
+	text-shadow: .1rem .1rem .5rem  black;
+	padding-bottom: 1rem;
+}
+.btn-lg{
+	border-color: blueviolet;
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+	border-width: medium;
+	border-radius: .5rem;
+	padding: .5rem 1rem;
+	font-size: 1.8rem;
+	font-weight: 700;
+	color: blueviolet;
+	
+}
+.btn-lg:hover{
+	color: white;
+	background-color:rgba(0,0,0,0.0);
+}
+/*============= COURSE SECTION =============*/
+
+
+.narrow {
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+.narrow h1 {
+    font-size: 2.4rem;
+  }
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  border-color: #1EBBA3;
+  background-color: #1EBBA3;
+  color: white;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: #189582;
+  background-color: #189582;
+  color: white;
+}
+
+/*======== Start Portfolio Section=====*/
+
+.row2{
+	
+	padding: 100px;
+}
+.jumbotron{
+	margin-bottom: 0;
+	padding: 2rem 0 3.5rem;
+	border-radius: 0;
+	}
+h3.heading{
+	font-size: 1.9rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 1.9rem;
+}
+.heading-underline{
+	width: 5rem;
+	height: .1rem;
+	background: blueviolet;
+	margin: 0 auto 2rem;
+	
+}
+.feature svg.svg-inline--fa {
+	color: blueviolet;
+}
+.feature svg.svg-inline--fa:hover {
+	color: white;
+}
+.feature h3{
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	padding: 0.5rem 5rem 0.5rem 5rem;
+	color: blueviolet;
+	text-decoration: none;
+	
+}
+.feature h3:hover{
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	padding: 0.5rem 5rem 0.5rem 5rem;
+	color: white;
+	text-decoration: none;
+	
+}
+
+
+.feature p{
+	font-size: 1.1rem;
+	
+}
+
+/*----About me----*/
+.aboutme col-sm img{
+	width:50%;
+	border-radius:50%;
+}
+.about{background-color: white;
+margin-bottom: 0;
+	padding: 2rem 0 3.5rem;
+	border-radius: 0;
+	}
+.aboutme{
+	font-size: 1.9rem;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 1.9rem;
+}
+
+.aboutme img{
+	width:100%;
+	border-radius:50%;
+	
+}
+blackquote.svg-inline--fa {
+	color: blueviolet;
+	margin: 1rem;
+}
+.aboutme-hr{
+	border-top:.05rem solid blueviolet;
+}
+/*----Contact me------*/
+
+footer{
+	
+	background-image: linear-gradient(to right, #FBC2EB , #A18CD1);
+	color: white;
+	padding: 0.5rem 0 2rem;
+	
+}
+footer img{
+	height: 3rem;
+	margin: 1.5rem 0;
+}
+footer a{
+	color: white;
+}
+footer svg.svg-inline--fa{
+	font-size: 1.6rem;
+	margin: 1.2rem .5rem 0 0 ;
+}
+footer svg.svg-inline--fa:hover{
+	color: blueviolet!important;
+}
+footer a:hover{
+	color: blueviolet!important;
+}
+hr.socket{
+	width: 100%;
+	border-top: .1rem solid #666666;
+	margin-top: 4rem;
+}
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
